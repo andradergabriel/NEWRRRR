@@ -3,7 +3,8 @@ name: Monitor Astra e novos modelos OpenAI
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    # A cada hora, no minuto 07.
+    - cron: "7 * * * *"
   workflow_dispatch:
   push:
     paths:
