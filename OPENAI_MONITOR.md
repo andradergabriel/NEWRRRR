@@ -1,6 +1,6 @@
 # Monitor de Astra e novos modelos da OpenAI
 
-Este monitor executa a cada 15 minutos e só abre uma issue quando encontra uma
+Este monitor executa **a cada hora** e só abre uma issue quando encontra uma
 novidade relevante sobre Astra ou outro novo modelo para ChatGPT, Codex ou API.
 
 ## Ordem de prioridade
